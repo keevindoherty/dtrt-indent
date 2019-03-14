@@ -62,9 +62,7 @@ Each entry is either:
 
 (defun dtrt-indent/init-dtrt-indent ()
   (use-package dtrt-indent
-    :defer t
-    :init
-    (add-hook 'prog-mode-hook
+    :hook (prog-mode .
               (lambda ()
                 (modify-syntax-entry ?_ "w")
                 (dtrt-indent-mode)
