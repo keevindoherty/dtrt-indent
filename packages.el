@@ -66,9 +66,7 @@ Each entry is either:
     :init
     (add-hook 'prog-mode-hook
               (lambda ()
-                ;; https://www.emacswiki.org/emacs/EmacsSyntaxTable
                 (modify-syntax-entry ?_ "w")
-
                 (dtrt-indent-mode)
                 (dtrt-indent-adapt)))))
 
