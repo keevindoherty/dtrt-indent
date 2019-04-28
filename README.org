@@ -16,7 +16,7 @@ This is a simple layer wrapping the dtrt-indent Emacs package for automatic dete
 It is automatically enabled by default when the layer is added in the way [[https://github.com/syl20bnr/spacemacs/issues/3203#issuecomment-264175032][suggested here]].
 
 * Install
-The setup process simply involves cloning the repo into =~/.emacs.d/private=, then adding =dtrt-indent= to 
+The setup process simply involves cloning the repo into =~/.emacs.d/private=, then adding =dtrt-indent= to your =~/.spacemacs=.
 
 =cd ~/.emacs.d/private/=
 
