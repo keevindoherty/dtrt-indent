@@ -1,5 +1,7 @@
 #+TITLE: dtrt-indent layer
 
+*Update 12/22/2020*: This layer is now included on the [[https://github.com/syl20bnr/spacemacs/tree/develop][Spacemacs develop branch]]. If you are running Spacemacs off of the =develop= branch, you can grab the =dtrt-indent= layer simply by adding it to your =dotspacemacs-configuration-layers= list.
+
 Spacemacs layer wrapping the Emacs package [[https://github.com/jscheid/dtrt-indent][dtrt-indent]].
 This package enables automatic detection and switching of indentation style to match the current file.
 See the [[https://github.com/jscheid/dtrt-indent][dtrt-indent]] repo for more details.
